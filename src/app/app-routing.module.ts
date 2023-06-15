@@ -19,6 +19,7 @@ const routes: Routes = [
   {
     path: 'prevention',
     component: PreventionsComponent,
+    
   },
   {
     path: 'traitement',
