@@ -7,6 +7,9 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { SensibilisationComponent } from './sensibilisation/sensibilisation.component';
 import { PreventionsComponent } from './preventions/preventions.component';
 import { TraitementsComponent } from './traitements/traitements.component';
+import { NavebarComponent } from './navebar/navebar.component';
+import { DepistageComponent } from './depistage/depistage.component';
+import { ActualitesComponent } from './actualites/actualites.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { TraitementsComponent } from './traitements/traitements.component';
     AccueilComponent,
     SensibilisationComponent,
     PreventionsComponent,
-    TraitementsComponent
+    TraitementsComponent,
+    NavebarComponent,
+    DepistageComponent,
+    ActualitesComponent
   ],
   imports: [
     BrowserModule,
