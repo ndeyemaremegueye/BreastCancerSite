@@ -6,6 +6,8 @@ import { TraitementsComponent } from './traitements/traitements.component';
 import { PreventionsComponent } from './preventions/preventions.component';
 import { DepistageComponent } from './depistage/depistage.component';
 import { ActualitesComponent } from './actualites/actualites.component';
+import { NavebarComponent } from './navebar/navebar.component';
+import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
 
 const routes: Routes = [
   {
@@ -33,6 +35,15 @@ const routes: Routes = [
   {
     path: 'actualité',
     component: ActualitesComponent,
+  },
+  {
+    path: 'nave',
+    component: NavebarComponent,
+  },
+  {
+    path: 'cancer',
+    component: CancerDuSeinComponent,
+    
   }
 ];
 
