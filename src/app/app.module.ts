@@ -11,6 +11,10 @@ import { NavebarComponent } from './navebar/navebar.component';
 import { DepistageComponent } from './depistage/depistage.component';
 import { ActualitesComponent } from './actualites/actualites.component';
 import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
+import { TabagismeComponent } from './tabagisme/tabagisme.component';
+import { AlcoolComponent } from './alcool/alcool.component';
+import { EducationComponent } from './education/education.component';
+import { AlimentationComponent } from './alimentation/alimentation.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component
     NavebarComponent,
     DepistageComponent,
     ActualitesComponent,
-    CancerDuSeinComponent
+    CancerDuSeinComponent,
+    TabagismeComponent,
+    AlcoolComponent,
+    EducationComponent,
+    AlimentationComponent
   ],
   imports: [
     BrowserModule,
