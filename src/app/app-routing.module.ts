@@ -8,6 +8,9 @@ import { DepistageComponent } from './depistage/depistage.component';
 import { ActualitesComponent } from './actualites/actualites.component';
 import { NavebarComponent } from './navebar/navebar.component';
 import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
+import { RisquesComponent } from './risques/risques.component';
+import { TypesCancerComponent } from './types-cancer/types-cancer.component';
+
 
 const routes: Routes = [
   {
@@ -44,6 +47,15 @@ const routes: Routes = [
     path: 'cancer',
     component: CancerDuSeinComponent,
     
+  },
+  {
+    path: 'risques',
+    component: RisquesComponent,
+    
+  },
+  {
+    path: 'types-cancer',
+    component: TypesCancerComponent,
   }
 ];
 

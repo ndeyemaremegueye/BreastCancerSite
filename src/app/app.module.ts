@@ -11,6 +11,8 @@ import { NavebarComponent } from './navebar/navebar.component';
 import { DepistageComponent } from './depistage/depistage.component';
 import { ActualitesComponent } from './actualites/actualites.component';
 import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
+import { RisquesComponent } from './risques/risques.component';
+import { TypesCancerComponent } from './types-cancer/types-cancer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component
     NavebarComponent,
     DepistageComponent,
     ActualitesComponent,
-    CancerDuSeinComponent
+    CancerDuSeinComponent,
+    RisquesComponent,
+    TypesCancerComponent
   ],
   imports: [
     BrowserModule,
