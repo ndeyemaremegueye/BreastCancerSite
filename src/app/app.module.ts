@@ -16,6 +16,8 @@ import { AutopalpationComponent } from './autopalpation/autopalpation.component'
 import { MammographieComponent } from './mammographie/mammographie.component';
 import { BiopsieComponent } from './biopsie/biopsie.component';
 
+import { RisquesComponent } from './risques/risques.component';
+import { TypesCancerComponent } from './types-cancer/types-cancer.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { BiopsieComponent } from './biopsie/biopsie.component';
     MammographieComponent,
     BiopsieComponent,
   
+    RisquesComponent,
+    TypesCancerComponent
   ],
   imports: [
     BrowserModule,
