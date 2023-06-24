@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./depistage.component.css']
 })
 export class DepistageComponent implements OnInit {
+  imagePath: string = 'assets/images/BIOPSIE.jpg';
+  text: string = 'BIOPSIE';
 
   constructor() { }
 
