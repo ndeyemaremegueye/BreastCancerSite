@@ -7,6 +7,10 @@ import { PreventionsComponent } from './preventions/preventions.component';
 import { DepistageComponent } from './depistage/depistage.component';
 import { ActualitesComponent } from './actualites/actualites.component';
 import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
+import { MammographieComponent } from './mammographie/mammographie.component';
+import { AutopalpationComponent } from './autopalpation/autopalpation.component';
+import { BiopsieComponent } from './biopsie/biopsie.component';
+
 
 const routes: Routes = [
   {
@@ -35,9 +39,25 @@ const routes: Routes = [
     path: 'actualité',
     component: ActualitesComponent,
   },
+  
   {
     path: 'cancer',
     component: CancerDuSeinComponent,
+    
+  },
+  {
+    path: 'mammo',
+    component: MammographieComponent,
+    
+  },
+  {
+    path: 'auto',
+    component: AutopalpationComponent,
+    
+  },
+  {
+    path: 'biopsie',
+    component: BiopsieComponent,
     
   }
 ];
