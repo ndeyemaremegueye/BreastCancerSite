@@ -74,6 +74,9 @@ const routes: Routes = [
   {
     path: 'biopsie',
     component: BiopsieComponent,
+  },
+   { path: 'risques',
+    component: RisquesComponent,
     
   }
 ];
