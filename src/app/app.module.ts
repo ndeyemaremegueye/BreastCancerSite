@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
@@ -17,6 +18,11 @@ import { EducationComponent } from './education/education.component';
 import { AlimentationComponent } from './alimentation/alimentation.component';
 import { RisquesComponent } from './risques/risques.component';
 import { TypesCancerComponent } from './types-cancer/types-cancer.component';
+import { BiopsieComponent } from './biopsie/biopsie.component';
+import { MammographieComponent } from './mammographie/mammographie.component';
+import { AutopalpationComponent } from './autopalpation/autopalpation.component';
+
+
 
 @NgModule({
   declarations: [
@@ -34,7 +40,7 @@ import { TypesCancerComponent } from './types-cancer/types-cancer.component';
     EducationComponent,
     AlimentationComponent,
     RisquesComponent,
-    TypesCancerComponent,
+    TypesCancerComponent
   ],
   imports: [
     BrowserModule,

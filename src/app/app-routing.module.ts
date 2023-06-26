@@ -10,7 +10,6 @@ import { NavebarComponent } from './navebar/navebar.component';
 import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
 import { RisquesComponent } from './risques/risques.component';
 import { TypesCancerComponent } from './types-cancer/types-cancer.component';
-import { TabagismeComponent } from './tabagisme/tabagisme.component';
 
 
 const routes: Routes = [
@@ -40,6 +39,7 @@ const routes: Routes = [
     path: 'actualité',
     component: ActualitesComponent,
   },
+  
   {
     path: 'nave',
     component: NavebarComponent,
@@ -57,11 +57,7 @@ const routes: Routes = [
   {
     path: 'types-cancer',
     component: TypesCancerComponent,
-  },
-  {
-    path: 'Tabagisme',
-    component: TabagismeComponent,
-  },
+  }
 ];
 
 
