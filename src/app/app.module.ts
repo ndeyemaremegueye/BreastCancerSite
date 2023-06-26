@@ -15,6 +15,8 @@ import { TabagismeComponent } from './tabagisme/tabagisme.component';
 import { AlcoolComponent } from './alcool/alcool.component';
 import { EducationComponent } from './education/education.component';
 import { AlimentationComponent } from './alimentation/alimentation.component';
+import { RisquesComponent } from './risques/risques.component';
+import { TypesCancerComponent } from './types-cancer/types-cancer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { AlimentationComponent } from './alimentation/alimentation.component';
     TabagismeComponent,
     AlcoolComponent,
     EducationComponent,
-    AlimentationComponent
+    AlimentationComponent,
+    RisquesComponent,
+    TypesCancerComponent,
   ],
   imports: [
     BrowserModule,
