@@ -1,39 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Appvilla - Creative Landing Page HTML Template.</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
-</head>
 
 <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-    <!-- /End Preloader -->
     <app-navebar></app-navebar>
     <!-- Start Carousel Area -->
     <section id="home" class="hero-area">
-        <div class="container">
-            <div class="row align-items-center">
+        <!-- <div class="container"> -->
+            <!-- <div class="row align-items-center">
                 <div class="col-lg-5 col-md-12 col-12">
                       
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -63,46 +37,93 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                    </div>
+                </div>  -->                                                
+            <!-- </div>
+        </div> -->
 
-                    <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active" *ngfor="let image of images">
-                            <img src="{{image.src}}" class="d-block w-100 img-caroussel" alt="">
-                          </div>
-                            <marquee width="60%" direction="left" height="100px" style="color: white" >
-                            </marquee>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hiden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hiden">Next</span>
-                      </button>
-                    </div> -->
+        <div id="home" class="slider-area">
+            <div class="bd-example">
+                <div id="carouselOne" class="carousel slide" data-ride="carousel">
+                    <img class="d-block w-100" src="assets/images/cancer1.jpeg" alt="Slide 1">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselOne" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselOne" data-slide-to="1"></li>
+                        <li data-target="#carouselOne" data-slide-to="2"></li>
+                    </ol>
 
-                   
-                      
-                    <div class="hero-content">
-                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">"Le cancer du sein, combattons le"</h1>
-                        <p class="wow fadeInLeft" data-wow-delay=".6s">Pour favoriser l'accès à l'information , le Mouvement de Sensibilisation au Cancer 
-                            propose un site dédié à la sensibilisation du cancer du sein et les
-                            moyens de traitements et de préventions afin de combattre cette maladie.</p>
-                        <!-- <div class="button wow fadeInLeft" data-wow-delay=".8s">
-                            <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> App Store</a>
-                            <a href="javascript:void(0)" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
-                                Play</a>
-                        </div> -->
-                    </div>
-                </div>
-                <!-- <div class="col-lg-7 col-md-12 col-12">
-                    <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                        <img src="assets/images/hero/phone.png" alt="#">
-                    </div>
-                </div> -->
-            </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item bg_cover active" >
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title">Refreshing Design & Easy to Customize</h2>
+                                            <ul class="carousel-btn rounded-buttons">
+                                                <li><a class="main-btn rounded-three" href="#">GET STARTED</a></li>
+                                                <li><a class="main-btn rounded-one" href="#">DOWNLOAD</a></li>
+                                            </ul>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover">
+                            <img class="d-block w-100" src="assets/images/femme1.png" alt="Slide 1">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title">Based on Latest Bootstrap & HTML5</h2>
+                                            <ul class="carousel-btn rounded-buttons">
+                                                <li><a class="main-btn rounded-three" href="#">GET STARTED</a></li>
+                                                <li><a class="main-btn rounded-one" href="#">DOWNLOAD</a></li>
+                                            </ul>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/femme.png)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title">Multi-purpose Landing Page Template</h2>
+                                            <ul class="carousel-btn rounded-buttons">
+                                                <li><a class="main-btn rounded-three" href="#">GET STARTED</a></li>
+                                                <li><a class="main-btn rounded-one" href="#">DOWNLOAD</a></li>
+                                            </ul>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+                    </div> <!-- carousel-inner -->
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hiden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hiden">Next</span>
+                </button>
+                </div> <!-- carousel -->
+            </div> <!-- bd-example -->
+        </div>
+
+        <div class="hero-content">
+            <h1 class="wow fadeInLeft" data-wow-delay=".4s">"Le cancer du sein, combattons le"</h1>
+            <p class="wow fadeInLeft" data-wow-delay=".6s">Pour favoriser l'accès à l'information , le Mouvement de Sensibilisation au Cancer 
+                propose un site dédié à la sensibilisation du cancer du sein et les
+                moyens de traitements et de préventions afin de combattre cette maladie.</p> 
+            <!-- <div class="button wow fadeInLeft" data-wow-delay=".8s">
+                <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> App Store</a>
+                <a href="javascript:void(0)" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
+                    Play</a>
+            </div> -->
         </div>
     </section>
     <!-- End Carousel Area -->
@@ -400,7 +421,7 @@
                         <div class="single-footer f-about">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="assets/images/logo/white-logo.svg" alt="#">
+                                    <img src="assets/images/logo/logo-breast-cancer1.png" alt="#">
                                 </a>
                             </div>
                             <p>Making the world a better place through constructing elegant hierarchies.</p>
@@ -412,9 +433,7 @@
                                 <li><a href="javascript:void(0)"><i class="lni lni-youtube"></i></a></li>
                                 <li><a href="javascript:void(0)"><i class="lni lni-pinterest"></i></a></li>
                             </ul>
-                            <p class="copyright-text">Designed and Developed by <a href="https://uideck.com/"
-                                    rel="nofollow" target="_blank">UIdeck</a>
-                            </p>
+                            <p class="copyright-text">Copyright CancerDuSeinSenegal2023</p>
                         </div>
                         <!-- End Single Widget -->
                     </div>
@@ -425,43 +444,17 @@
                                 <div class="single-footer f-link">
                                     <h3>Solutions</h3>
                                     <ul>
-                                        <li><a href="javascript:void(0)">Marketing</a></li>
-                                        <li><a href="javascript:void(0)">Analytics</a></li>
-                                        <li><a href="javascript:void(0)">Commerce</a></li>
-                                        <li><a href="javascript:void(0)">Insights</a></li>
-                                        <li><a href="javascript:void(0)">Promotion</a></li>
+                                        <li><a href="javascript:void(0)">Cancer du sein</a></li>
+                                        <li><a href="javascript:void(0)">Preventions</a></li>
+                                        <li><a href="javascript:void(0)">Traitements</a></li>
+                                        <li><a href="javascript:void(0)">Depistage</a></li>
+                                        <li><a href="javascript:void(0)">Actualites</a></li>
                                     </ul>
                                 </div>
                                 <!-- End Single Widget -->
                             </div>
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <!-- Single Widget -->
-                                <div class="single-footer f-link">
-                                    <h3>Support</h3>
-                                    <ul>
-                                        <li><a href="javascript:void(0)">Pricing</a></li>
-                                        <li><a href="javascript:void(0)">Documentation</a></li>
-                                        <li><a href="javascript:void(0)">Guides</a></li>
-                                        <li><a href="javascript:void(0)">API Status</a></li>
-                                        <li><a href="javascript:void(0)">Live Support</a></li>
-                                    </ul>
-                                </div>
-                                <!-- End Single Widget -->
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <!-- Single Widget -->
-                                <div class="single-footer f-link">
-                                    <h3>Company</h3>
-                                    <ul>
-                                        <li><a href="javascript:void(0)">About Us</a></li>
-                                        <li><a href="javascript:void(0)">Our Blog</a></li>
-                                        <li><a href="javascript:void(0)">Jobs</a></li>
-                                        <li><a href="javascript:void(0)">Press</a></li>
-                                        <li><a href="javascript:void(0)">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                                <!-- End Single Widget -->
-                            </div>
+                            
+                            
                             <div class="col-lg-3 col-md-6 col-12">
                                 <!-- Single Widget -->
                                 <div class="single-footer f-link">
