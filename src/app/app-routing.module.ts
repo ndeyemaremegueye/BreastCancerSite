@@ -63,24 +63,6 @@ const routes: Routes = [
   {
     path: 'types-cancer',
     component: TypesCancerComponent,
-  },
-  {
-    path: 'mammo',
-    component: MammographieComponent,
-    
-  },
-  {
-    path: 'auto',
-    component: AutopalpationComponent,
-    
-  },
-  {
-    path: 'biopsie',
-    component: BiopsieComponent,
-  },
-   { path: 'risques',
-    component: RisquesComponent,
-    
   }
   ,
   {
