@@ -18,6 +18,9 @@ import { BiopsieComponent } from './biopsie/biopsie.component';
 
 import { RisquesComponent } from './risques/risques.component';
 import { TypesCancerComponent } from './types-cancer/types-cancer.component';
+import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
+import { ActualiteComponent } from './actualite/actualite.component';
+import { DonComponent } from './don/don.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { TypesCancerComponent } from './types-cancer/types-cancer.component';
     BiopsieComponent,
   
     RisquesComponent,
-    TypesCancerComponent
+    TypesCancerComponent,
+    OctobreRoseComponent,
+    ActualiteComponent,
+    DonComponent
   ],
   imports: [
     BrowserModule,
