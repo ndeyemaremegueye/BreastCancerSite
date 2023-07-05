@@ -17,9 +17,13 @@ import { TypesCancerComponent } from './types-cancer/types-cancer.component';
 import { BiopsieComponent } from './biopsie/biopsie.component';
 import { MammographieComponent } from './mammographie/mammographie.component';
 import { AutopalpationComponent } from './autopalpation/autopalpation.component';
+<<<<<<< HEAD
 import { ChirurgieComponent } from './chirurgie/chirurgie.component';
 import { RadiotherapieComponent } from './radiotherapie/radiotherapie.component';
 import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.component';
+=======
+import { BlogueComponent } from './blogue/blogue.component';
+>>>>>>> 6d18983 (component:blogue)
 
 
 import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
@@ -56,8 +60,13 @@ import { DonComponent } from './don/don.component';
     TypesCancerComponent,
     OctobreRoseComponent,
     ActualiteComponent,
+<<<<<<< HEAD
     DonComponent
 >>>>>>> dca55e533baaf0c81477c67f6c9e0ac91a672fac
+=======
+    DonComponent,
+    BlogueComponent
+>>>>>>> 6d18983 (component:blogue)
   ],
   imports: [
     BrowserModule,

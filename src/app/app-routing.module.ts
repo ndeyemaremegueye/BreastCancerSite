@@ -10,6 +10,16 @@ import { NavebarComponent } from './navebar/navebar.component';
 import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
 import { RisquesComponent } from './risques/risques.component';
 import { TypesCancerComponent } from './types-cancer/types-cancer.component';
+<<<<<<< HEAD
+=======
+import { AutopalpationComponent } from './autopalpation/autopalpation.component';
+import { BiopsieComponent } from './biopsie/biopsie.component';
+import { MammographieComponent } from './mammographie/mammographie.component';
+import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
+import { DonComponent } from './don/don.component';
+import { ActualiteComponent } from './actualite/actualite.component';
+import { BlogueComponent } from './blogue/blogue.component';
+>>>>>>> 6d18983 (component:blogue)
 
 
 const routes: Routes = [
@@ -59,6 +69,7 @@ const routes: Routes = [
     component: TypesCancerComponent,
   },
   {
+<<<<<<< HEAD
     path: 'chirurgie',
     component: ChirurgieComponent,
   },
@@ -85,6 +96,10 @@ const routes: Routes = [
   {
     path: 'alimentation',
     component: AlimentationComponent,
+=======
+    path: 'blogue',
+    component: BlogueComponent,
+>>>>>>> 6d18983 (component:blogue)
   }
   ,
   {
@@ -115,6 +130,7 @@ const routes: Routes = [
     path: 'auto',
     component: AutopalpationComponent,
   },
+
 ];
 
 
