@@ -21,6 +21,9 @@ import { TypesCancerComponent } from './types-cancer/types-cancer.component';
 import { BiopsieComponent } from './biopsie/biopsie.component';
 import { MammographieComponent } from './mammographie/mammographie.component';
 import { AutopalpationComponent } from './autopalpation/autopalpation.component';
+import { ChirurgieComponent } from './chirurgie/chirurgie.component';
+import { RadiotherapieComponent } from './radiotherapie/radiotherapie.component';
+import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.component';
 
 
 
@@ -40,7 +43,14 @@ import { AutopalpationComponent } from './autopalpation/autopalpation.component'
     EducationComponent,
     AlimentationComponent,
     RisquesComponent,
-    TypesCancerComponent
+    TypesCancerComponent,
+    ChirurgieComponent,
+    RadiotherapieComponent,
+    ChimiotherapieComponent,
+    TabagismeComponent,
+    AlimentationComponent,
+    AlcoolComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
