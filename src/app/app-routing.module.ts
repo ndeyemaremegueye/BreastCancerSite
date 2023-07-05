@@ -81,7 +81,20 @@ const routes: Routes = [
     path: 'actualite',
     component: ActualiteComponent,
   },
+  {
+    path: 'mammo',
+    component: MammographieComponent,
+  },
+  {
+    path: 'biopsie',
+    component: BiopsieComponent,
+  },
+  {
+    path: 'auto',
+    component: AutopalpationComponent,
+  },
 ];
+
 
 
 
