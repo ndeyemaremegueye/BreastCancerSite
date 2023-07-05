@@ -13,6 +13,9 @@ import { TypesCancerComponent } from './types-cancer/types-cancer.component';
 import { AutopalpationComponent } from './autopalpation/autopalpation.component';
 import { BiopsieComponent } from './biopsie/biopsie.component';
 import { MammographieComponent } from './mammographie/mammographie.component';
+import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
+import { DonComponent } from './don/don.component';
+import { ActualiteComponent } from './actualite/actualite.component';
 
 
 const routes: Routes = [
@@ -79,6 +82,23 @@ const routes: Routes = [
     component: RisquesComponent,
     
   }
+  ,
+  {
+    path: 'types-cancer',
+    component: TypesCancerComponent,
+  },
+  {
+    path: 'octobrerose',
+    component: OctobreRoseComponent,
+  },
+  {
+    path: 'don',
+    component: DonComponent,
+  },
+  {
+    path: 'actualite',
+    component: ActualiteComponent,
+  },
 ];
 
 

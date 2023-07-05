@@ -19,6 +19,9 @@ import { MammographieComponent } from './mammographie/mammographie.component';
 import { AutopalpationComponent } from './autopalpation/autopalpation.component';
 
 
+import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
+import { ActualiteComponent } from './actualite/actualite.component';
+import { DonComponent } from './don/don.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +40,11 @@ import { AutopalpationComponent } from './autopalpation/autopalpation.component'
     MammographieComponent,
     BiopsieComponent,
   
+    RisquesComponent,
+    TypesCancerComponent,
+    OctobreRoseComponent,
+    ActualiteComponent,
+    DonComponent
   ],
   imports: [
     BrowserModule,
