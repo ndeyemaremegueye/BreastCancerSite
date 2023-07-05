@@ -10,13 +10,6 @@ import { NavebarComponent } from './navebar/navebar.component';
 import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
 import { RisquesComponent } from './risques/risques.component';
 import { TypesCancerComponent } from './types-cancer/types-cancer.component';
-import { ChirurgieComponent } from './chirurgie/chirurgie.component';
-import { RadiotherapieComponent } from './radiotherapie/radiotherapie.component';
-import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.component';
-import { TabagismeComponent } from './tabagisme/tabagisme.component';
-import { AlcoolComponent } from './alcool/alcool.component';
-import { AlimentationComponent } from './alimentation/alimentation.component';
-import { EducationComponent } from './education/education.component';
 
 
 const routes: Routes = [
@@ -93,7 +86,37 @@ const routes: Routes = [
     path: 'alimentation',
     component: AlimentationComponent,
   }
+  ,
+  {
+    path: 'types-cancer',
+    component: TypesCancerComponent,
+  },
+  {
+    path: 'octobrerose',
+    component: OctobreRoseComponent,
+  },
+  {
+    path: 'don',
+    component: DonComponent,
+  },
+  {
+    path: 'actualite',
+    component: ActualiteComponent,
+  },
+  {
+    path: 'mammo',
+    component: MammographieComponent,
+  },
+  {
+    path: 'biopsie',
+    component: BiopsieComponent,
+  },
+  {
+    path: 'auto',
+    component: AutopalpationComponent,
+  },
 ];
+
 
 
 

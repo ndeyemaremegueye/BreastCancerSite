@@ -12,10 +12,6 @@ import { NavebarComponent } from './navebar/navebar.component';
 import { DepistageComponent } from './depistage/depistage.component';
 import { ActualitesComponent } from './actualites/actualites.component';
 import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
-import { TabagismeComponent } from './tabagisme/tabagisme.component';
-import { AlcoolComponent } from './alcool/alcool.component';
-import { EducationComponent } from './education/education.component';
-import { AlimentationComponent } from './alimentation/alimentation.component';
 import { RisquesComponent } from './risques/risques.component';
 import { TypesCancerComponent } from './types-cancer/types-cancer.component';
 import { BiopsieComponent } from './biopsie/biopsie.component';
@@ -26,6 +22,9 @@ import { RadiotherapieComponent } from './radiotherapie/radiotherapie.component'
 import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.component';
 
 
+import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
+import { ActualiteComponent } from './actualite/actualite.component';
+import { DonComponent } from './don/don.component';
 
 @NgModule({
   declarations: [
@@ -38,12 +37,9 @@ import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.compone
     DepistageComponent,
     ActualitesComponent,
     CancerDuSeinComponent,
-    TabagismeComponent,
-    AlcoolComponent,
-    EducationComponent,
-    AlimentationComponent,
     RisquesComponent,
     TypesCancerComponent,
+<<<<<<< HEAD
     ChirurgieComponent,
     RadiotherapieComponent,
     ChimiotherapieComponent,
@@ -51,6 +47,17 @@ import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.compone
     AlimentationComponent,
     AlcoolComponent,
     EducationComponent
+=======
+    AutopalpationComponent,
+    MammographieComponent,
+    BiopsieComponent,
+  
+    RisquesComponent,
+    TypesCancerComponent,
+    OctobreRoseComponent,
+    ActualiteComponent,
+    DonComponent
+>>>>>>> dca55e533baaf0c81477c67f6c9e0ac91a672fac
   ],
   imports: [
     BrowserModule,
