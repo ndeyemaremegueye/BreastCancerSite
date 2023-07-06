@@ -10,6 +10,19 @@ import { NavebarComponent } from './navebar/navebar.component';
 import { CancerDuSeinComponent } from './cancer-du-sein/cancer-du-sein.component';
 import { RisquesComponent } from './risques/risques.component';
 import { TypesCancerComponent } from './types-cancer/types-cancer.component';
+import { ChirurgieComponent } from './chirurgie/chirurgie.component';
+import { RadiotherapieComponent } from './radiotherapie/radiotherapie.component';
+import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.component';
+import { TabagismeComponent } from './tabagisme/tabagisme.component';
+import { AlcoolComponent } from './alcool/alcool.component';
+import { AlimentationComponent } from './alimentation/alimentation.component';
+import { EducationComponent } from './education/education.component';
+import { AutopalpationComponent } from './autopalpation/autopalpation.component';
+import { BiopsieComponent } from './biopsie/biopsie.component';
+import { MammographieComponent } from './mammographie/mammographie.component';
+import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
+import { DonComponent } from './don/don.component';
+import { ActualiteComponent } from './actualite/actualite.component';
 
 
 const routes: Routes = [

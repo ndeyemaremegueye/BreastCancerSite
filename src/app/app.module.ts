@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
@@ -20,11 +18,13 @@ import { AutopalpationComponent } from './autopalpation/autopalpation.component'
 import { ChirurgieComponent } from './chirurgie/chirurgie.component';
 import { RadiotherapieComponent } from './radiotherapie/radiotherapie.component';
 import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.component';
-
-
 import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
 import { ActualiteComponent } from './actualite/actualite.component';
 import { DonComponent } from './don/don.component';
+import { TabagismeComponent } from './tabagisme/tabagisme.component';
+import { AlcoolComponent } from './alcool/alcool.component';
+import { EducationComponent } from './education/education.component';
+import { AlimentationComponent } from './alimentation/alimentation.component';
 
 @NgModule({
   declarations: [
@@ -39,25 +39,21 @@ import { DonComponent } from './don/don.component';
     CancerDuSeinComponent,
     RisquesComponent,
     TypesCancerComponent,
-<<<<<<< HEAD
     ChirurgieComponent,
     RadiotherapieComponent,
     ChimiotherapieComponent,
     TabagismeComponent,
     AlimentationComponent,
     AlcoolComponent,
-    EducationComponent
-=======
+    EducationComponent,
     AutopalpationComponent,
     MammographieComponent,
     BiopsieComponent,
-  
     RisquesComponent,
     TypesCancerComponent,
     OctobreRoseComponent,
     ActualiteComponent,
     DonComponent
->>>>>>> dca55e533baaf0c81477c67f6c9e0ac91a672fac
   ],
   imports: [
     BrowserModule,
