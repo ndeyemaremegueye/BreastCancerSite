@@ -15,18 +15,9 @@ import { TypesCancerComponent } from './types-cancer/types-cancer.component';
 import { BiopsieComponent } from './biopsie/biopsie.component';
 import { MammographieComponent } from './mammographie/mammographie.component';
 import { AutopalpationComponent } from './autopalpation/autopalpation.component';
-<<<<<<< HEAD
 import { ChirurgieComponent } from './chirurgie/chirurgie.component';
 import { RadiotherapieComponent } from './radiotherapie/radiotherapie.component';
 import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.component';
-<<<<<<< HEAD
-=======
-=======
-import { BlogueComponent } from './blogue/blogue.component';
->>>>>>> 6d18983 (component:blogue)
-
-
->>>>>>> 49d29768e40c51c1da82097738ece2a888e6e9c3
 import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
 import { ActualiteComponent } from './actualite/actualite.component';
 import { DonComponent } from './don/don.component';
@@ -34,6 +25,7 @@ import { TabagismeComponent } from './tabagisme/tabagisme.component';
 import { AlcoolComponent } from './alcool/alcool.component';
 import { EducationComponent } from './education/education.component';
 import { AlimentationComponent } from './alimentation/alimentation.component';
+import { BlogueComponent } from './blogue/blogue.component';
 
 @NgModule({
   declarations: [
@@ -62,16 +54,9 @@ import { AlimentationComponent } from './alimentation/alimentation.component';
     TypesCancerComponent,
     OctobreRoseComponent,
     ActualiteComponent,
-<<<<<<< HEAD
-    DonComponent
-<<<<<<< HEAD
-=======
->>>>>>> dca55e533baaf0c81477c67f6c9e0ac91a672fac
-=======
     DonComponent,
     BlogueComponent
->>>>>>> 6d18983 (component:blogue)
->>>>>>> 49d29768e40c51c1da82097738ece2a888e6e9c3
+
   ],
   imports: [
     BrowserModule,
