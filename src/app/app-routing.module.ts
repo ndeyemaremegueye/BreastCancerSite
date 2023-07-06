@@ -15,14 +15,15 @@ import { RadiotherapieComponent } from './radiotherapie/radiotherapie.component'
 import { ChimiotherapieComponent } from './chimiotherapie/chimiotherapie.component';
 import { TabagismeComponent } from './tabagisme/tabagisme.component';
 import { AlcoolComponent } from './alcool/alcool.component';
-import { AlimentationComponent } from './alimentation/alimentation.component';
 import { EducationComponent } from './education/education.component';
-import { AutopalpationComponent } from './autopalpation/autopalpation.component';
-import { BiopsieComponent } from './biopsie/biopsie.component';
-import { MammographieComponent } from './mammographie/mammographie.component';
+import { AlimentationComponent } from './alimentation/alimentation.component';
+import { BlogueComponent } from './blogue/blogue.component';
 import { OctobreRoseComponent } from './octobre-rose/octobre-rose.component';
 import { DonComponent } from './don/don.component';
 import { ActualiteComponent } from './actualite/actualite.component';
+import { MammographieComponent } from './mammographie/mammographie.component';
+import { BiopsieComponent } from './biopsie/biopsie.component';
+import { AutopalpationComponent } from './autopalpation/autopalpation.component';
 
 
 const routes: Routes = [
@@ -98,8 +99,11 @@ const routes: Routes = [
   {
     path: 'alimentation',
     component: AlimentationComponent,
-  }
-  ,
+  },
+  {
+    path: 'blogue',
+    component: BlogueComponent,
+  },
   {
     path: 'types-cancer',
     component: TypesCancerComponent,
@@ -128,6 +132,7 @@ const routes: Routes = [
     path: 'auto',
     component: AutopalpationComponent,
   },
+
 ];
 
 
